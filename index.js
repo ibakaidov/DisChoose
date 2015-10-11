@@ -5,9 +5,11 @@ var si = document.getElementById('sourced');
 
 var choosed;
 si.onchange = load;
+var sourced;
 function load	() {
 
-var sourced = si.value.split('/');
+
+sourced = si.value.split('/');
 spreader(sourced);	
 }
 load();
