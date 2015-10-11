@@ -1,0 +1,32 @@
+*{
+	font-size: 24pt;
+}
+
+#out{
+	border: 1px solid black;
+}
+
+ul{
+	
+	position: absolute;
+	margin: 0;
+	width: 50%;
+}
+#left{
+	left: 0;
+}
+#right{
+	right: 0;
+}
+#sourced {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 12pt;
+}
